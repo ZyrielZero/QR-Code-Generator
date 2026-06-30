@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Git and CI metadata
+.git/
+.github/
+.gitignore
+
+# Local secrets and generated runtime output
+.env
+qr_codes/
+logs/
+
+# Editor / OS cruft
+.vscode/
+.DS_Store
+
+# Docker's own files don't need to be inside the image
+Dockerfile
+.dockerignore
