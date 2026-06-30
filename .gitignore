@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local secrets / config
+.env
+
+# Generated runtime output
+qr_codes/
+logs/
+
+# OS / editor cruft
+.DS_Store
+.vscode/
